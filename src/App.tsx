@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar"
 import ChallengeSection from "./sections/ChallengeSection"
 import HeroSection from "./sections/HeroSection"
+import HowItWorksSection from "./sections/HowItWorksSection"
 import WhatWeDoSection from "./sections/WhatWeDoSection"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <HeroSection />
         <WhatWeDoSection />
         <ChallengeSection />
+        <HowItWorksSection />
       </main>
     </div>
   )
