@@ -2,6 +2,7 @@ import NavBar from "./components/NavBar"
 import BookDemoSection from "./sections/BookDemoSection"
 import ChallengeSection from "./sections/ChallengeSection"
 import CustomeWorkflowSection from "./sections/CustomeWorkflowSection"
+import FaqSection from "./sections/FaqSection"
 import HeroSection from "./sections/HeroSection"
 import HowItWorksSection from "./sections/HowItWorksSection"
 import IntegrationSection from "./sections/IntegrationSection"
@@ -20,6 +21,7 @@ function App() {
         <CustomeWorkflowSection />
         <IntegrationSection />
         <TeamSection />
+        <FaqSection />
         <BookDemoSection />
       </main>
     </div>
