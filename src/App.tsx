@@ -3,6 +3,7 @@ import BookDemoSection from "./sections/BookDemoSection"
 import ChallengeSection from "./sections/ChallengeSection"
 import CustomeWorkflowSection from "./sections/CustomeWorkflowSection"
 import FaqSection from "./sections/FaqSection"
+import FooterSection from "./sections/FooterSection"
 import HeroSection from "./sections/HeroSection"
 import HowItWorksSection from "./sections/HowItWorksSection"
 import IntegrationSection from "./sections/IntegrationSection"
@@ -24,6 +25,7 @@ function App() {
         <FaqSection />
         <BookDemoSection />
       </main>
+      <FooterSection />
     </div>
   )
 }
