@@ -3,6 +3,7 @@ import ChallengeSection from "./sections/ChallengeSection"
 import CustomeWorkflowSection from "./sections/CustomeWorkflowSection"
 import HeroSection from "./sections/HeroSection"
 import HowItWorksSection from "./sections/HowItWorksSection"
+import IntegrationSection from "./sections/IntegrationSection"
 import WhatWeDoSection from "./sections/WhatWeDoSection"
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <ChallengeSection />
         <HowItWorksSection />
         <CustomeWorkflowSection />
+        <IntegrationSection />
       </main>
     </div>
   )
