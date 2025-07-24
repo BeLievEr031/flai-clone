@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
     return (
@@ -32,12 +32,12 @@ function NavBar() {
                         >
                             Integrations
                         </a>
-                        <a
+                        <Link
                             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-                            href="/about"
+                            to={"/about"}
                         >
                             Team
-                        </a>
+                        </Link>
                     </div>
                     <div className="hidden md:flex items-center justify-end space-x-4">
                         <a
@@ -85,7 +85,7 @@ function NavBar() {
                     </button>
                 </div>
             </div>
-        </nav>
+        </nav >
 
     )
 }
